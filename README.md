@@ -60,7 +60,7 @@ The goal for this project is to highlight the importance of self-sustaining ways
 
 * Be able to navigate the website by using the navbar.
 * To include coherent information about the purpose of the website.
-* Content to be displayed in a visually appealing and not misleading manor.
+* Content to be displayed in a visually appealing and not misleading manner.
 * To have a functional contact form and radio button.
 
 **Expectations**
