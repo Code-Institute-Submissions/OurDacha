@@ -14,23 +14,6 @@ padding: 0;
 }
 
 
-h1 {
-font-family: Gilda;
-text-transform: uppercase;
-letter-spacing: 4px;
-color: #A0522D;
-}
-
-.hero-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #eae8e5;
-}
 
 
 
