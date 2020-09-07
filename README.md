@@ -87,14 +87,16 @@ The goal for this project is to highlight the importance of self-sustaining ways
 
 **Colours**
 
-The **colours** that are used are:
+The **colours** that are used:
 
 * For body text and some titles: Cadet #4F6D7A;
 * For some headers and titles: Burnt Sienna #DD6E42;
 * For body background: White #ffffff;
 * For additional backgrounds: Dutch White #E8DAB2;
 
-![Color Scheme](css/wireframes/earthy-autumn.png)
+![Color Scheme](css/wireframes/earthy-autumn.png) 
+
+I used [Coolors] ("https://coolors.co/") colour palette to create the colour scheme you see here.
 
 ## Wireframing ##
 ---
