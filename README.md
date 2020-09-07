@@ -94,20 +94,19 @@ The **colours** that are used are:
 * For body background: White #ffffff;
 * For additional backgrounds: Dutch White #E8DAB2;
 
-![Color Scheme](/wireframes/earthy-autumn.png)
+![Color Scheme](css/wireframes/earthy-autumn.png)
 
 ## Wireframing ##
 ---
 I used [Balsamiq](https://) to create wireframes. This produced simple wireframes which I used to get an idea of which layouts would work better on different size screens.
 
-View my wireframes [here]("/").
 See below for wireframes specific to device:
 
 *   [Mobile Wireframe]("/")
 *   [Tablet Wireframe]("/")
 *   [Desktop Wireframe]("/")
 
-Soon after I started to build this website, I realised that my target audience would not favour having to navigate across multiple pages, therefore, I switched to a landingpage design instead and with sections rather than pages.
+Soon after I created wireframes for this website on paper, I realised that my target audience would not favour having to navigate across multiple pages, therefore, I switched to a landingpage design instead and with sections rather than pages.
 
 <details>
 <p> Write here about the development of the page content. What fitten well and what had to be reconsidered.</p>
