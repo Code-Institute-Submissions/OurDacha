@@ -18,6 +18,8 @@ html {
     position: absolute;
 }
 
+
+
 h1 {
     font-family: 'Montserrat';
     text-decoration: none;
@@ -30,16 +32,16 @@ h4 {
     font-family: 'Montserrat';
     font-size: 1rem;
     line-height: 4rem;
-    color: lightgray;
+    letter-spacing: 0.5px;
+    color: #778899;
 }
-
-
 
 .banner {
     height: 30%;
     width: 100%;
     display: block;
 } 
+
 
 .banner > .banner-img {
     position: relative;
@@ -50,6 +52,37 @@ h4 {
     background-size: cover;
 }
 
+.home-section, .about-section, .gallery-section, .form-section {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+
+.text-area h2 {
+    overflow: auto;
+    font-family: 'Roboto';
+    color:#4F6D7A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Navbar*/
 
@@ -61,6 +94,7 @@ h4 {
 
 
 
+ 
 
 
 
