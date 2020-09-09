@@ -36,6 +36,8 @@ h4 {
     color: #778899;
 }
 
+/*banner*/
+
 .banner {
     height: 30%;
     width: 100%;
@@ -51,6 +53,9 @@ h4 {
     -webkit-background-size: cover;  
     background-size: cover;
 }
+
+
+/*content sections*/
 
 .home-section, .about-section, .gallery-section, .form-section {
     position: inherit;
@@ -69,6 +74,19 @@ h4 {
     overflow: auto;
     font-family: 'Roboto';
     color:#4F6D7A;
+    
+}
+
+/*gallery*/
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(10px, 1fr));
 }
 
 
