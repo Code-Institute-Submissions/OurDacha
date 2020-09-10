@@ -137,7 +137,6 @@ Soon after I created wireframes for this website on paper, I realised that my ta
 
 * [HTML](https://html.com/)
 * [CSS](https://skillcrush.com/blog/css/)
-* [JS](https://javascript.info/)
 
 
 **Tools & Libraries**
