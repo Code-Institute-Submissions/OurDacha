@@ -96,7 +96,7 @@ The **colours** that are used:
 
 ![Color Scheme](css/wireframes/earthy-autumn.png) 
 
-I used [Coolors] ("https://coolors.co/") colour palette to create the colour scheme you see here.
+I used [Coolors]("https://coolors.co/") colour palette to create the colour scheme you see here.
 
 ## Wireframing ##
 ---
