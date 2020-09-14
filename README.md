@@ -96,11 +96,11 @@ The **colours** that are used:
 
 ![Color Scheme](css/wireframes/earthy-autumn.png) 
 
-I used [Coolors]("https://coolors.co/") colour palette to create the colour scheme you see here.
+* I used [Coolors](https://coolors.co/) colour palette to create the colour scheme you see here.
 
 ## Wireframing ##
 ---
-I used [Balsamiq](https://) to create wireframes. This produced simple wireframes which I used to get an idea of which layouts would work better on different size screens.
+* I used [Balsamiq](https://balsamiq.com/) to create wireframes. This produced simple wireframes which I used to get an idea of which layouts would work better on different size screens.
 
 See below for wireframes specific to device:
 
@@ -145,6 +145,7 @@ Soon after I created wireframes for this website on paper, I realised that my ta
 * [Bootstrap](https://getbootstrap.com/)
 * [Font-Awesome](https://fontawesome.com/icons?d=gallery)
 * [Google fonts](https://fonts.google.com/)
+* [Unsplash](https://unsplash.com/)
 
 
 
