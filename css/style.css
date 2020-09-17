@@ -61,6 +61,8 @@ h4 {
 }
 
 
+
+
 /*content sections*/
 
 .content {
@@ -75,34 +77,42 @@ h4 {
 }
 
 
-/*
-.home-content {
-    width: 80%;
-    margin: 0.5rem;
-} 
-
-.about-content {
-    width: 80%;
-    margin: 0.5rem;
-} 
-
-.gallery-content {
-    width: 80%;
-    margin: 0.5rem;
-} 
-
-.form-content {
-    width: 100%;
-    margin: 0.5rem;
-} 
-*/
-
 #home{
     overflow: hidden;
     text-align: center;
     color: #4F6D7A;
     background-color: #fff;
 }
+
+#left-about{
+    padding-top: 30px;
+    width: 80%;
+    float: left;
+}
+
+#right-about {
+    width: 33%;
+    margin-top: 55px;
+    float: right;
+}
+
+#circle-container {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #A0522D;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover {
+    background: url("https://lh3.googleusercontent.com/proxy/j8o3J34E1S5B1o7gnKBlqsmVkpqfp5wn98UoBkxutl_40tyFXboruwVrMl78XqmoDVMJiM7n-YywYjzfYy-s9761SykhaQ") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
 
 #about {
     overflow: hidden;
@@ -113,14 +123,14 @@ h4 {
 
 #gallery {
     overflow: hidden;
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     color:#4F6D7A;
     background-color: #fff;
 } 
 
 #form {
     overflow: hidden;
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     color:#4F6D7A;
     background-color: #fff;
 }   
@@ -129,36 +139,26 @@ h4 {
 
 
 /*gallery*/
-/* .container {
+.gallery-content {
     width: 100%;
     height: 100vh;
-    display: flex;
     align-items: center;
     overflow: auto;
-} */
-
-/* .gallery {
-    display: grid;
-    grid-template-columns: repeat(6, minmax(10px, 1fr));
-    grid-template-rows: repeat(4, 10vw);
-    grid-gap: 16px;
-    background-color: #EAEAEA;
-    padding: 16px;
-} */
+} 
 
 #gallery {
     display: flex;
     flex-flow: row wrap;
 }
 
+
 .img {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 10%;
+    max-height: 10%;
     object-fit: contain;
     opacity: .9;
     margin: 10px;
     transition: opacity 0.3s;
-
 }
 
 img:hover {
@@ -220,7 +220,7 @@ button {
     font-size: 13px;
     background: #C0D6DF;
     border: none;
-    /*margin-top: 60px;*/
+    margin-top: 40px;
     border-top: 60px;
     border-radius: 5px;
 }
