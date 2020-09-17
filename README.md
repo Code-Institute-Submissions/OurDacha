@@ -100,13 +100,7 @@ The **colours** that are used:
 
 ## Wireframing ##
 ---
-* I used [Balsamiq](https://balsamiq.com/) to create wireframes. This produced simple wireframes which I used to get an idea of which layouts would work better on different size screens.
-
-See below for wireframes specific to device:
-
-*   [Mobile Wireframe]("/")
-*   [Tablet Wireframe]("/")
-*   [Desktop Wireframe]("/")
+* I used [Balsamiq](https://balsamiq.com/) to create wireframes. I drew some wireframes by hand to roughly show how I wanted each page/section to look.
 
 Soon after I created wireframes for this website on paper, I realised that my target audience would not favour having to navigate across multiple pages, therefore, I switched to a landingpage design instead and with sections rather than pages.
 
