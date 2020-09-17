@@ -14,7 +14,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    width: dynamic;
     position: absolute; 
 }
 
@@ -115,21 +114,21 @@ h4 {
 
 
 #about {
-    overflow: hidden;
+    overflow: auto;
     text-align: center;
     color:#4F6D7A;
-    background-color: #fff;
+    background-color: #F0E68C;
 }
 
 #gallery {
-    overflow: hidden;
+    overflow: auto;
     font-family: 'Roboto' sans-serif;
     color:#4F6D7A;
     background-color: #fff;
 } 
 
 #form {
-    overflow: hidden;
+    overflow: auto;
     font-family: 'Roboto' sans-serif;
     color:#4F6D7A;
     background-color: #fff;
