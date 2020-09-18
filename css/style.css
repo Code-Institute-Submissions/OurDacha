@@ -1,18 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
-html {
-    scroll-behavior: smooth;
-}
+/* {
+    box-sizing: border-box;
+}  */
 
 body {
     margin: 0;
     padding: 0;
-    position: absolute; 
+    position: absolute;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -26,26 +24,27 @@ h1 {
 
 h4 {
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    line-height: 4rem;
     letter-spacing: 0.5px;
     color: #778899;
+}
+
+p {
+    font-size: 20px;
 }
 
 
 /*Navbar*/
 
-.navbar-brand {
+#navbar-brand {
     float: right;
     display: block;
 }
 
 
-
 /*banner*/
 
 .banner {
-    height: 40%;
+    line-height: 100px;
     width: 100%;
     display: block;
 } 
@@ -54,7 +53,7 @@ h4 {
 .banner-img {
     position: relative;
     width: 100%;
-    height: 7rem;
+    height: 20rem;
 }
 
 
@@ -64,24 +63,22 @@ h4 {
 
 .content {
     position: relative;
-    display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Montserrat", sans-serif;
     flex-wrap: wrap;
-    width: 100%;
-    height: 800px;
+   /* height: 150%; */
 }
 
 
-#home{
+#home {
     overflow: hidden;
     text-align: center;
+    align-content: center:
     color: #4F6D7A;
     background-color: #fff;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 80%;
     float: left;
@@ -89,68 +86,90 @@ h4 {
 
 #right-about {
     width: 33%;
-    margin-top: 55px;
+    margin-top: 150px;
+    margin-right: 15%;
+    align-items: center;
     float: right;
 }
 
 #circle-container {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     padding: 10px;
     border-style: solid;
     border-color: #A0522D;
     border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 #circle-cover {
-    background: url("https://lh3.googleusercontent.com/proxy/j8o3J34E1S5B1o7gnKBlqsmVkpqfp5wn98UoBkxutl_40tyFXboruwVrMl78XqmoDVMJiM7n-YywYjzfYy-s9761SykhaQ") no-repeat center center;
+    background: url("https://p0.pikist.com/photos/908/659/garden-shed-witch-s-house-haunting-mysterious-cottage-forest-lodge-hermit-romance-dacha.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 
-#about {
-    overflow: auto;
+#home {
+    overflow: inherit;
+    margin-left: 10%;
     text-align: center;
-    color:#4F6D7A;
-    background-color: #F0E68C;
+    align-content: center;
+    color: #4F6D7A;
+    background-color: #fff;
+} 
+
+
+#about {
+    overflow: inherit;
+    text-align: center;
+    align-content: center;
+    color: #4F6D7A;
+    background-color: #fff;
 }
 
 #gallery {
     overflow: auto;
     color:#4F6D7A;
     background-color: #fff;
-} 
+}  
 
-#form {
+
+/* #form {
     overflow: auto;
     font-family: "Roboto", sans-serif;
     color:#4F6D7A;
     background-color: #fff;
-}   
+}   */
 
 
 
 
 /*gallery*/
-.gallery-content {
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    overflow: auto;
-} 
 
-#gallery {
+.row {
+    display: -ms-flex;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
+.column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 80%;
+}
 
 .img {
-    max-width: 10%;
-    max-height: 10%;
+   /* max-width: 100%;
+    max-height: 100%;*/
     object-fit: contain;
     opacity: .9;
     margin: 10px;
@@ -159,8 +178,21 @@ h4 {
 
 img:hover {
     opacity: 1;
+}   
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
 
 
 
@@ -168,7 +200,7 @@ img:hover {
 /* form */ 
 
 #form {
-   position: absolute;
+   position: relative;
    top: 60%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -179,7 +211,6 @@ img:hover {
 input {
     width: 100%;
     margin: 60px 0;
-    background: rgba (0,0,0,0);
     border: none;
     border-bottom: 1px solid gray;
 }
@@ -204,11 +235,11 @@ h2 {
     margin-top: 55px;
 }
 
-::-webkit-input-placeholder {
+/* ::-webkit-input-placeholder {
     color: #778899;
     font-size: 15px;
     letter-spacing: 2px;
-}
+}   */
 
 button {
     font-family: "Roboto", sans-serif;
