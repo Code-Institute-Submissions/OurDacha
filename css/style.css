@@ -67,7 +67,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat';
+    font-family: "Montserrat", sans-serif;
     flex-wrap: wrap;
     width: 100%;
     height: 800px;
@@ -120,14 +120,13 @@ h4 {
 
 #gallery {
     overflow: auto;
-    font-family: 'Roboto' sans-serif;
     color:#4F6D7A;
     background-color: #fff;
 } 
 
 #form {
     overflow: auto;
-    font-family: 'Roboto' sans-serif;
+    font-family: "Roboto", sans-serif;
     color:#4F6D7A;
     background-color: #fff;
 }   
@@ -186,7 +185,7 @@ input {
 }
 
 h2 {
-    font-family: 'Montserrat';
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     line-height: 4rem;
     letter-spacing: 0.5px;
@@ -212,7 +211,7 @@ h2 {
 }
 
 button {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     padding: 10px 16px;
     font-size: 13px;
     background: #C0D6DF;
