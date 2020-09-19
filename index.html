@@ -1,21 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="css/style.css" rel="stylesheet">
     <title>Our Dacha</title>
   </head>
 
 <body>
-    <section class="container-fluid">
+    <section>
+    <div class="container-fluid">
 		<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
 			<a class="navbar-brand" href="#home">
-				<h1><strong>Our Dacha</strong></h1>
+				<h1>Our Dacha</h1>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	                <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
 				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 					<li class="nav-item active">
 						<a class="nav-link" href="#about">
-							<h4>About</h4><span class="sr-only"></span>
+							<h4>About</h4>  <!-- <span class="sr-only"></span>  -->
 						</a>
 					</li>
 					<li class="nav-item">
@@ -40,33 +40,32 @@
 				</ul>
 
 			</div>
-			   <!-- <div class="d-none d-md-block">
-				        <p class="navbar-text my-auto mr-2"><i>...country living</i></p>
-				    </div>  -->
-		</nav>
-    </section>
 
-	<section class="banner" id="banner">
+		</nav>
+      </div>
+
+	<div class="banner" id="banner">
 		<div class="banner">
-			<img class="banner-img" src="css/images/countryside.jpg">
+			<img class="banner-img" src="css/images/countryside.jpg" alt="_blank">
 	     </div>
+       </div>
 	</section> 
 
 
 
      <!--home section-->
      
-	<section class="content container" id="home">
+	<section class="content" id="home">
 		<div class="row">
 			<div class="col-sm-6">
                 <div id="left-about">
+                <br><br><br><br>
 				<h2><strong>Home Away from Home</strong></h2>
-				<br>
-                <br>
+				<br><br>
 				<p> Peter the Great pioneered the concept of Dacha in the 17th century when he decided to hand out plots of land to his
                  subordinates in areas closest to the capital district.Peter wanted to ensure that those in his service could sustain themselves by having a small portion of land on which to cultivate plants and vegetables and even keep livestock as well as reside in a humble dwelling usually constructed on-site by the people themselves. 
                 </p>
-                <br>
+            
                 <p> With the arrival of Communism following the Russian Revolution, any property and plots of land were confiscated en-mass as private ownership of land was forbidden. Under Communism, however, the land started to slowly become redistributed to people of status like national heroes, including writers, engineers, and top government officials. 
                 </p>
 			</div>
@@ -89,97 +88,133 @@
 
 
      <!--about section-->
-	<section class="content container" id="about">
+	<div class="content" id="about">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-10 col-sm-4">
+				<br><br><br><br><br>
 				<h2><strong>A Little History</strong></h2>
-                <br>
-                <br>
-				<p> Peter the Great pioneered the concept of Dacha in the 17th century when he decided to hand out plots of land to his
-                 subordinates in areas closest to the capital district.Peter wanted to ensure that those in his service could sustain themselves by having a small portion of land on which to cultivate plants and vegetables and even keep livestock as well as reside in a humble dwelling usually constructed on-site by the people themselves. 
-                </p>
-                <br>
-                <p> With the arrival of Communism following the Russian Revolution, any property and plots of land were confiscated en-mass as private ownership was forbidden. Under Communism, however, the land started to slowly become redistributed to people of status like national heroes, including writers, engineers, and top government officials. 
-                The standard of the houses built on these bits of land ranged from most humble to quite extravagant according to individual status. Dachas grew into settlements over the century since their conception.
-                </p>
-                <br>
-                <p>
-                It is worthy of note that dachas saved the population from starvation during the Russian famine of 1921-1922 as people had to depend heavily on surviving 
-                off the produce they managed to harvest on their dachas.
-                Today, dachas are used a lot more for recreational purposes and as a way to retreat from city life and reconnect with nature.
+				<br><br>
+				<p> Peter the Great pioneered the concept of Dacha in the 17th century when he decided to hand out plots of
+					land to his
+					subordinates in areas closest to the capital district.Peter wanted to ensure that those in his service
+					could sustain themselves by having a small portion of land on which to cultivate plants and vegetables
+					and even keep livestock as well as reside in a humble dwelling usually constructed on-site by the people
+					themselves.
 				</p>
-                <br>
+				<br>
+				<p> With the arrival of Communism following the Russian Revolution, any property and plots of land were
+					confiscated en-mass as private ownership was forbidden. Under Communism, however, the land started to
+					slowly become redistributed to people of status like national heroes, including writers, engineers, and
+					top government officials.
+					The standard of the houses built on these bits of land ranged from most humble to quite extravagant
+					according to individual status. Dachas grew into settlements over the century since their conception.
+				</p>
+				<br>
+				<p>
+					It is worthy of note that dachas saved the population from starvation during the Russian famine of
+					1921-1922 as people had to depend heavily on surviving
+					off the produce they managed to harvest on their dachas.
+					Today, dachas are used a lot more for recreational purposes and as a way to retreat from city life and
+					reconnect with nature.
+				</p>
+				<br>
 			</div>
 		</div>
-	</section>
 
-     <!--gallery section-->
-	<div class="gallery-content" id="gallery">
-		<div class="container">
-                	<img src="css/images/farm-1.jpg" class="img" />
-					<img src="css/images/farm-2.jpg" class="img" />
-					<img src="css/images/farm-3.jpg" class="img" />
-					<img src="css/images/farm-4.jpg" class="img" />
-					<img src="css/images/farm-1.jpg" class="img" />
-					<img src="css/images/farm-2.jpg" class="img" />
-					<img src="css/images/farm-3.jpg" class="img" />
-					<img src="css/images/farm-4.jpg" class="img" />
-				    <img src="css/images/farm-1.jpg" class="img" />
-					<img src="css/images/farm-2.jpg" class="img" />
-					<img src="css/images/farm-3.jpg" class="img" />
-					<img src="css/images/farm-4.jpg" class="img" />
-				    <img src="css/images/farm-1.jpg" class="img" />
-					<img src="css/images/farm-2.jpg" class="img" />
-					<img src="css/images/farm-3.jpg" class="img" />
-					<img src="css/images/farm-4.jpg" class="img" />
-			    	<img src="css/images/farm-1.jpg" class="img" />
-					<img src="css/images/farm-2.jpg" class="img" />
-					<img src="css/images/farm-3.jpg" class="img" />
-					<img src="css/images/farm-4.jpg" class="img" />
-			    	<img src="css/images/farm-1.jpg" class="img" />
-					<img src="css/images/farm-2.jpg" class="img" />
-					<img src="css/images/farm-3.jpg" class="img" />
-					<img src="css/images/farm-4.jpg" class="img" />
-        </div>
+
+<div class="content" id="gallery">
+	<div id="MyCarousel" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item">
+				<img class="d-block w-100" src="css/images/farm-1.png" atl="Slide One">
+				<div class="carousel-caption">
+					<h4>Farm1</h4>
+				</div>
+			</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="css/images/farm-2.png" atl="Slide Two">
+					<div class="carousel-caption">
+						<h4>Farm2</h4>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="css/images/farm-3.png" atl="Slide Three">
+					<div class="carousel-caption">
+						<h4>Farm3</h4>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="css/images/farm-4.png" atl="Slide Four">
+					<div class="carousel-caption">
+						<h4>Farm4</h4>
+					</div>
+				</div>
+		    </div>
+	    </div>
+    </div>  
+
+    
+
+     <!--gallery section....
+     <br><br><br><br><br><br><br><br><br><br><br><br>
+	<div class="content" id="gallery">
+    <br><br>
+        <div class="row">
+              <div class="column">
+                	<img src="css/images/farm-1.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-2.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-3.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-4.jpg" style="width:100%" class="img" alt="farm"/>
+              </div>
+              <div class="column">
+					<img src="css/images/farm-1.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-2.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-3.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-4.jpg" style="width:100%" class="img" alt="farm"/>
+              </div>
+              <div class="column">
+				    <img src="css/images/farm-1.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-2.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-3.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-4.jpg" style="width:100%" class="img" alt="farm"/>
+              </div>
+              <div class="column">
+				    <img src="css/images/farm-1.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-2.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-3.jpg" style="width:100%" class="img" alt="farm"/>
+					<img src="css/images/farm-4.jpg" style="width:100%" class="img" alt="farm"/>
+             </div>
     </div>
+</div>       ...... -->
+
+
 
 
 	<!--form-section-->
-	<section class="content container" id="form">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2><strong>Join the community!</strong></h2>
-				<form>
-					<input type="text" id="name" placeholder="Name" />
-                    <input type="text" id="email" placeholder="Email" />
-					<input type="text" id="message" placeholder="Message" />
-	            </form>
-					<button type="button">Sign up!</button>
-			</div>
-		</div>
-	</section>
+<div class="form-part" id="form">
+	<h2><strong>Join the community!</strong></h2>
+	<form>
+		<input type="text" id="name" placeholder="Name" />
+		<input type="text" id="email" placeholder="Email" />
+		<input type="text" id="message" placeholder="Message" />
+	</form>
+		<button type="button">Sign up!</button>
+</div>
+
 
 <!--footer section-->
-
-<!--   <section class="section-content" id="footer">
-				<ul>
-					<li><i class="fab fa-youtube"></i><a href="https://www.youtube.com/" target="_blank"></a></li>
-					<li><i class="fab fa-facebook-square"></i><a href="https://www.facebook.com/facebook" target="_blank"></a></li>
-					<li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram-square"></i></li>
-					<li><a href="https://twitter.com/" target="_blank"></a><i class="fab fa-twitter-square"></i></li>
-				</ul>
-        </section>   -->
-
+	<div class="content" id="footer">
+		<ul>
+			<li><i class="fab fa-youtube-square"></i><a href="https://www.youtube.com/" target="_blank"></a></li>
+			<li><i class="fab fa-facebook-square"></i><a href="https://www.facebook.com/facebook" target="_blank"></a></li>
+			<li><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/" target="_blank"></a></li>
+			<li><i class="fab fa-twitter-square"></i><a href="https://twitter.com/" target="_blank"></a></li>
+		</ul>
+	</div>
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
-<!--
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
--->
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
