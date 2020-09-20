@@ -131,6 +131,12 @@ p {
     }
 }
 
+@media (max-width:600px) {
+    .circle-container {
+        display: hidden;
+    }
+}
+
 
 
 
