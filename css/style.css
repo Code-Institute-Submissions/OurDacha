@@ -182,23 +182,23 @@ p {
     display: -ms-flex;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 1px;
+    padding: 0 0px;
     max-width: 100%;
-    padding-top: 40px;
+    padding-top: 1px;
     margin-top: 5%;
 }
 
 .column {
     flex: 25%;
-    max-width: 50%;
-    padding: 0 1px;
+    max-width: 10%;
+    padding: 0 0px;
 }
 
 
 .img {
     object-fit: contain;
     opacity: .9;
-    margin: 2px;
+    margin: 1px;
     transition: opacity 0.3s;
 }
 
@@ -231,9 +231,9 @@ img:hover {
 .form-part {
     top: 80%;
     left: 50%;
-    height: 300%;
+    height: 100%;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 150px;
     margin-top: 5%;
   /* transform: translate(-50%, -50%); */
 } 
@@ -297,14 +297,14 @@ button {
 
 footer {
     position: absolute;
-    background-color: gainsboro;
+    background-color: #fff;
     text-align: center;
     padding: 10%;
-    height: 50px;
+    height: 10px;
 }
 
 .social-networks li {
-   display: inline;
+   display: inline-block;
    margin: 0;
 }
 
@@ -312,7 +312,7 @@ footer {
    font-size: 100%;
    margin: 1%;
    padding: 10%;
-   color: #778899;
+   color: #fff;
 }
 
 
