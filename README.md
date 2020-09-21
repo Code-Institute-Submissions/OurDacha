@@ -77,8 +77,8 @@ The goal for this project is to highlight the importance of self-sustaining ways
 
 **Fonts** that have been provided by [GoogleFonts](https://fonts.google.com/).
 
-* **Text of the body font-family:** 'Montserrat', sans-serif; 
-* **Text of headers and titles:** 'Roboto', sans-serif;
+* **Text of the body font-family:** 'Roboto', sans-serif;
+* **Text of headers and titles:** 'Montserrat', sans-serif;  
 
 
 **Icons**
@@ -105,7 +105,7 @@ The **colours** that are used:
 Soon after I created wireframes for this website on paper, I realised that my target audience would not favour having to navigate across multiple pages, therefore, I switched to a landingpage design instead and with sections rather than pages.
 
 <details>
-<p> Write here about the development of the page content. What fitten well and what had to be reconsidered.</p>
+<p> Overall the project has not reached the desired standard. A lot has been learned a long the way and in time I hope to improve it substantially.</p>
 </details>
 
 ![Screens](/insert picture of varied size screens)
@@ -131,6 +131,7 @@ Soon after I created wireframes for this website on paper, I realised that my ta
 
 * [HTML](https://html.com/)
 * [CSS](https://skillcrush.com/blog/css/)
+* [JS](https://www.javascript.com/)
 
 
 **Tools & Libraries**
@@ -144,58 +145,42 @@ Soon after I created wireframes for this website on paper, I realised that my ta
 
 
 ## Testing ##
----
 
-* 
-* 
-* 
-* 
+* Faults with responsive layout of the site.
+* Hamburger menu was out of line and would appear amongst content on small device. 
+* Major issues throughout the project with imported scripts which impacted on the oveall layout. 
 
 ## Bugs ##
----
+-----
 
 **During development**
 
-* 
-* 
-* 
-* 
+* Synthax errors found occasionally during the building process. 
+
+
 
 **During testing**
 
-* 
-* 
-* 
+*  Reccurent problems with python vscode-extensions. 
 
 
-**From peer code review**
-
-* 
-* 
-* 
 
 
 ## Deployment ##
 ---
-** / **
+When deploying Our Dacha using GitHub Pages the following steps were made:
+
+* GitHub opened in browser.
+* Signed in.
+* Selected the Our Dacha respository.
+* Found GitHub pages in the settings area..
+* Selected Master Branch.
+* Confirmed my selection.
 
 
 
 ## Credits ##
 ---
-** / **
-* 
-* 
-
-
-**Images**
-
-Images section:
-
-
-General:
-
-
-
-
-
+* W3schools
+* Article by CountryLiving
+* Slack community of students who are always ready to help and support.
